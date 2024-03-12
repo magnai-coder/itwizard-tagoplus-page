@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="title" content="Project Name" />
+    <meta name="keywords" content="Project Name" />
+    <meta name="description" content="Project Name" />
+
+    <title>TagoPlus</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/media.css">
+
+    <script src="../assets/js/libs/doughnutChart.js" type="module"></script>
+    <script src="../node_modules/chart.js/dist/chart.umd.js"></script>
+
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 스킵네비게이션 -->
+        <!-- GNB-->
+        <header class="head">
+            <div class="header-wrap container">
+                <div class='navigation'>
+                    <a href="#">
+                        <p class="logo">tagoplus</p>
+                    </a>
+                    <nav>
+                        <a href="#">서비스 소개</a>
+                        <a href="#">퍼블리싱 의뢰</a>
+                        <a href="#">포트폴리오</a>
+                        <a href="#">고객센터</a>
+                        <a href="#">
+                            <div>
+                                <img src=".././assets/imgs/icons/human.png">
+                                마이페이지
+                            </div>
+                        </a>
+                        <div class="navButtons">
+                            <button class="button1">로그인</button>
+                            <button class="button2">회원가입</button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- 본문 -->
+        <main class="conts">
+            <!-- Banner -->
+            <section class="banner">
+                <!-- conts -->
+                <div class="banner-wrap">
+                    <img src=".././assets/imgs/main/people.png" alt="poster">
+                    <img src=".././assets/imgs/main/bubble.png" alt="poster">
+                </div>
+                <!-- //Banner -->
+                <div class="banner container">
+                    <div class="bannerScript">
+                        <div>
+                            <p id="topScript">
+                                복잡한 퍼블리싱 이젠
+                            </p>
+                            <p id="bottomScript">
+                                전문가에게 맡기세요!
+                            </p>
+                        </div>
+                        <div class="bannerBoxs">
+                            <div class="medals">
+                                <img src="../assets/imgs/icons/medals.png">
+                            </div>
+                            <div class="bigNumber">
+                                <img src="../assets/imgs/icons/bigNumber.png">
+                            </div>
+                            <div class="whiteCircle">
+                                <img src="../assets/imgs/icons/whiteCircle.png">
+                            </div>
+                            <div class="wonSymbol">
+                                <img src="../assets/imgs/icons/wonSymbol.png">
+                            </div>
+                            <div class="whiteCircle2">
+                                <img src="../assets/imgs/icons/whiteCircle.png">
+                            </div>
+                            <div class="humanIcon">
+                                <img src="../assets/imgs/icons/humanIcon.png">
+                            </div>
+                            <div class="numbers">
+                                <img src="../assets/imgs/icons/numbers.png">
+                            </div>
+                            <div class="box">
+                                <p>여성의류 쇼핑몰</p>
+                                <p>김**</p>
+                            </div>
+                            <div class="box">
+                                <p>강남성모병원</p>
+                                <p>허**</p>
+                            </div>
+                            <div class="box">
+                                <p>밀알복지재단 30주년 ..</p>
+                                <p>최**</p>
+                            </div>
+                            <div class="box">
+                                <p>탱그램 라이팅 이더</p>
+                                <p>조**</p>
+                            </div>
+                            <div class="box">
+                                <p>한화 사이언스 챌린지</p>
+                                <p>박**</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="chart">
+                <div class="chart container">
+                    <div class="chartMain">
+                        <div id="ingPart">
+                            <img src="../assets/imgs/icons/ing.png">
+                            <p>진행중인 프로젝트</p>
+                        </div>
+                        <div class="threeChart">
+                            <div class="chartPart">
+                                <div class="myChart"><canvas id="myChart1"></canvas></div>
+                                <p>여성의류 쇼핑몰 보헤미안</p>
+                                <button>계약완료</button>
+                            </div>
+                            <div class="chartPart">
+                                <div class="myChart"><canvas id="myChart2"></canvas></div>
+                                <p>강남 맑은 치과</p>
+                                <button>접수완료</button>
+                            </div>
+                            <div class="chartPart">
+                                <div class="myChart"><canvas id="myChart3"></canvas></div>
+                                <p>현대지에프홀딩스</p>
+                                <button>접수중</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- //conts -->
+            <section class="threePoster">
+                <div class=" container">
+                    <div class="posterMain">
+                        <div class="poster">
+                            <p>총 계약된 프로젝트</p>
+                            <p>2,580<span class="singleWord" style="font-size: 22px;">건</span></p>
+                            <img src="../assets/imgs/icons/folderIcon.png">
+                        </div>
+                        <div class="poster">
+                            <p>현재 진행중인 프로젝트</p>
+                            <p>1,358<span class="singleWord" style="font-size: 22px;">건</span></p>
+                            <img src="../assets/imgs/icons/chartIcon.png">
+                        </div>
+                        <div class="poster">
+                            <p>완료된 프로젝트</p>
+                            <p>1,752<span class="singleWord" style="font-size: 22px;">건</span></p>
+                            <img src="../assets/imgs/icons/laptopIcon.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="introductionPost">
+                <div class="introduction container">
+                    <div class="introductionMain">
+                        <div class="scriptIntro">
+                            <p>서비스 소개</p>
+                            <p>누적 거래 402만 건! 700여 개의 카테고리와 6만여 개 서비스에서 필요한 모든 전문가를 만나보세요.</p>
+                            <button>자세히 보기<i class="arrow right"></i></button>
+                        </div>
+                        <img src="../assets/imgs/main/peoplePoster.png">
+                    </div>
+                </div>
+            </section>
+            <section class="announcement">
+                <div class="announcement-wrap container">
+                    <div class="announcementMain">
+                        <div class="scriptAnnounce">
+                            <p>유튜브 홍보용 영상</p>
+                            <p>누적 거래 402만 건!</p>
+                            <p>700여 개의 카테고리와 6만여 개 서비스에서 필요한 모든 전문가를 만나보세요.</p>
+                        </div>
+                        <div class="wrapper">
+                            <iframe src="https://www.youtube.com/embed/9GvJHBVzi-Y" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="comment">
+                <div class="comment-wrap container">
+                    <div class="commentMain">
+                        <div class="commentPart">
+                            <div class="seeMore">
+                                <p class="commentTitle">이용후기</p>
+                                <button>더보기<i class="arrow2 right"></i></button>
+                            </div>
+                            <div class="reviews">
+                                <div class="avatar">
+                                    <div class="name">
+                                        <img src="../assets/imgs/icons/manIcon.png" />
+                                        <p>김*국</p>
+                                    </div>
+                                    <p>복잡한 코딩 한번에 해결했어요 너무 감사합니다. </p>
+                                    <p><span style="color: #888888; font-family: 'Pretendard'; ">2023.07.30</span></p>
+                                </div>
+                                <div class="avatar">
+                                    <div class="name">
+                                        <img src="../assets/imgs/icons/womanIcon2.png" />
+                                        <p>박*영</p>
+                                    </div>
+                                    <p>단가도 좋고 코딩 수준도 높고 무엇보다 빨라서 좋았어요 또 이용하겠습니다.</p>
+                                    <p><span style="color: #888888; font-family: 'Pretendard'">2023.07.30</span></p>
+                                </div>
+                                <div class="avatar">
+                                    <div class="name">
+                                        <img src="../assets/imgs/icons/womanIcon.png" />
+                                        <p>황*숙</p>
+                                    </div>
+                                    <p>복잡한 코딩 한번에 해결했어요 너무 감사합니다. </p>
+                                    <p><span style="color: #888888; font-family: 'Pretendard'"> 2023.07.30</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="announcement2">
+                            <div class="seeMore">
+                                <p class="commentTitle2">공지사항</p>
+                                <button>더보기<i class="arrow2 right"></i></button>
+                            </div>
+                            <div class="line1">
+                                <p>사이트가 새롭게 오픈되었습니다. 사이트가 새롭게 오픈..</p>
+                                <p id="commentDate">2023.07.30</p>
+                            </div>
+                            <div class="line">
+                                <p>사이트가 새롭게 오픈되었습니다. </p>
+                                <p id="commentDate">2023.07.30</snap>
+                                </p>
+                            </div>
+                            <div class="line">
+                                <p>안드로이드 지원 중단 버전 안내 </p>
+                                <p id="commentDate">2023.07.30</snap>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-wrap container">
+                <div class="footerMain">
+                    <p> 서울 금천구 가산디지털1로 5대륭테크노타운20차 402호 &emsp; TEL : 1644-5805 </p>
+                    <p>사업자등록번호 : 113-86-13483 &emsp; 통신판매번호 : 구로 제 2008-00086호 &emsp; 대표 : 문양희 &emsp; 개인정보관리책임자 : 조원호
+                    </p>
+                    <p>Copyright @ 2008 타고플러스. All Right Reserved</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

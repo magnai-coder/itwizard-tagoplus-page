@@ -1,0 +1,225 @@
+@charset "utf-8";
+@import url(fonts.css);
+
+
+
+
+/* container */
+.container {display: flex; align-items: center; width: 1170px; justify-content: center;} 
+
+
+
+/* navigation */
+.head {display: flex;  justify-content: center; height: 82px; align-items: center;}
+.navigation {display: flex; justify-content:space-between; width: 100%;}
+.logo {font-family: 'Pretendard'; text-transform: uppercase; font-weight: 900; font-size: 26px; color: #333333; align-items: center;}
+.navigation nav {display: flex; justify-content: space-between; gap:33px; align-items: center;}
+.navigation a {font-family: 'Pretendard'; font-size: 17px; font-weight: 600;}
+.navButtons {display: flex; gap: 6px; align-items: center;}
+.button1 {font-family: 'Pretendard';  font-size: 14px; width: 77px; height: 37px; background-color: #dfdfdf; border-radius: 7px; border: none;}
+.button2 {font-family: 'Pretendard';  font-size: 14px; width: 77px; height: 37px; background-color: #333333; color: #ffffff; border-radius: 7px;}
+
+
+
+/* Banner */
+.const {display: flex; position: relative;}
+.banner-wrap {display: flex; position: absolute; width: 100%; justify-content: center;}
+.banner {display: flex; justify-content: center; background-color: #f6624f;}
+.banner-wrap img {display: flex; position: absolute; width:auto; height: auto; margin-right: 210px; margin-top: 73px;}
+.bannerScript {display: flex; position: relative; justify-content: space-between; width: 100%; height: 418px; align-items: center;}
+#topScript {font-family:'Pretendard'; font-size: 38px; font-weight: 100; color: #ffffff; margin-bottom: 11px;}
+#bottomScript {font-family:'Pretendard'; font-size: 42px; font-weight: 500; color: #ffffff;}
+.box {display: flex; align-items: center; width: 409px; height: 53px; background-color: #ffffff; border-radius: 10px; margin-bottom: 5px; padding-left: 50px; padding-right: 32px; justify-content: space-between;}
+.banner-wrap > img:nth-child(2) {
+    margin-right: 150px;
+    margin-top: 65px;
+}
+
+
+/* three chart */
+.chart {display: flex; justify-content: center;}
+.chart p {font-size: 32px; font-family: 'Predendard';}
+.threeChart {display: flex; position: relative; justify-content: space-between; width: 680px;}
+.threeChart p {font-size: 18px; font-family: 'Predendard'; margin-top: 21px;}
+.chartMain {display: flex; position: relative; width: 100%; justify-content: space-between;  margin-top: 76px;}
+.chartMain p {font-family: 'Pretendard'; font-weight: 600;}
+.threeChart button {width: 79px; height: 29px; font-size: 14px; font-family: 'Pretendard'; background-color: #e8e7e7; padding: 7px; padding-right: 13px; padding-left: 13px; border-radius: 3px; margin-top: 16px;}
+.chartPart {display: flex; flex-direction: column; align-items: center; justify-content: center;} 
+.myChart {display: flex; margin-left: 8px;}
+#myChart1 {display: flex; position: relative; width: 187px;  transform: rotate(270deg) rotateX(180deg);}
+#myChart2 {display: flex; position: relative; width: 187px; transform: rotate(270deg) rotateX(180deg);}
+#myChart3 {display: flex; position: relative; width: 187px; transform: rotate(270deg) rotateX(180deg);}
+#ingPart > p:nth-child(2) {
+    display: flex;
+    position: relative;
+    margin-top: 118px; 
+    font-weight: 800;
+}
+
+/* 
+			#7774ff 
+			#29ce8a 63%,
+		 transform: rotate(270deg) rotateX(180deg); font-size: 24px; font-family: 'Pretendard'; font-weight: 900;  */
+
+
+/* three Poster */
+.threePoster {display: flex; flex-direction: row; justify-content: center; margin-top: 70px;}
+.posterMain {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto; grid-gap:20px; width: 100%;}
+.poster {display: block; position: relative; border-radius: 10px; height: 309px; padding-top: 49px; padding-left: 39px;}
+.poster p {font-size: 20px; font-family: 'Pretendard'; font-weight: 600;}
+.poster > p:nth-child(2) {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.poster > p:nth-child(3) {
+    font-size: 22px;
+} 
+.posterMain > div:nth-child(1) {
+    background-color: #e9defb;
+}
+.posterMain .poster:nth-child(2) {
+    background-color:#daedcf; 
+}
+.posterMain > div:nth-child(3) {
+background-color: #fff0bd;
+}
+
+
+/* introduction post */
+.introductionPost {display: flex; justify-content: center; margin-top: 70px; }
+.introductionMain {display: flex; position: relative; width:100%; height: 301px; background-color: #cfe4ff; border-radius: 10px; overflow: hidden; align-items: center; padding-left: 43px;}
+.introductionMain p {font-size: 16px; font-family: 'Pretendard'; font-weight: 500;} 
+.introductionMain > div:nth-child(1) {
+    width: 37%;
+}
+.scriptIntro > p:nth-child(1) {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Pretendand';
+    letter-spacing: -4px;
+    
+}
+.scriptIntro > p:nth-child(2) {
+    margin-top: 26px;
+    margin-bottom: 41px;
+    line-height: 26px;
+
+}
+.scriptIntro > button:nth-child(3) {
+   background-color: #ffffff;
+   width: 153px;
+   height: 47px;
+   border-radius: 10px;
+}
+.arrow { border: solid rgb(63, 62, 62); border-width: 0 2px 2px 0; display: inline-block; padding: 3px; margin-left: 40px; }
+.right { transform: rotate(-45deg); -webkit-transform: rotate(-45deg); }
+ 
+
+/* announcement */
+.announcement {display: flex; background-color: #e9ecef; margin-top: 82px; justify-content: center; padding-top: 69px; padding-bottom: 69px;}
+.announcementMain {display: grid; grid-template-columns: 1fr 683px; grid-template-rows: auto; justify-content: center; align-items: center; width: 100%;}
+.announcementMain p {font-size: 16px; font-family: 'Pretendard'; font-weight: 500;} 
+.scriptAnnounce {width: 60%;}
+.scriptAnnounce > p:nth-child(1) {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Pretendand';
+    color: #222222;
+    letter-spacing: -4px;
+}
+.scriptAnnounce > p:nth-child(2) {
+    margin-top: 33px;
+    line-height: 24px;  
+}
+.scriptAnnounce > p:nth-child(3) {
+   line-height: 24px;
+}
+.wrapper {display: flex; position: relative; width: 100%; overflow: hidden; padding-top: 58.25%; border-radius: 10px; } 
+.announcement iframe {position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100% ; border: none;}
+
+
+/* comment */
+.comment {display: flex; justify-content: center; }
+.commentMain {display: flex; position: relative;  align-items: center; margin-top: 70px; margin-bottom: 96px; justify-content: space-between; gap:62px; width: 100%;}
+.commentPart {display: flex; flex-direction: column;}
+.reviews {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto; grid-gap:10px;}
+.seeMore {display: flex; flex-direction: row; margin-bottom: 25px;  font-weight: 600;}
+.seeMore button {border: none; background-color: white; color: #615e5e; cursor: pointer; width: 95px;}
+.avatar {display: block; height: 212px; width: 240px; border: 1px solid #fbaca2; border-radius: 10px; padding: 26px 43px 29px 26px;}
+.avatar p {font-size: 15px; font-weight: 500;}
+.name {display: flex; flex-direction: row; align-items: center; margin-bottom: 16px;}
+.name p {font-size: 15px; font-weight: 700;}
+.avatar img {width: auto; height: auto; margin-right: 10px;}
+.avatar > p:nth-child(3) { display: flex; position: absolute; bottom: 26px; }
+.arrow2 {border: solid rgb(63, 62, 62); border-width: 0 2px 2px 0; display: inline-block; padding: 3px; margin-left: 3px;}
+.announcement2 {width: 40%;}
+.line {display: flex; flex-direction: column; justify-content: center; border-bottom: 1px solid #bdb8b8; padding:12px 0px 15px 0px;}
+.line p { font-family: 'Pretendard'; font-size: 16px; margin: 0; line-height: 21px; font-weight: 500;}
+.line1 {display: flex; flex-direction: column; justify-content: center; border-bottom: 1px solid #bdb8b8; border-top: 1px solid #bdb8b8; padding:12px 0px 15px 0px;}
+.line1 p {font-family: 'Pretendard'; font-size: 16px; margin: 0; line-height: 21px;  font-weight: 500;}
+.commentTitle {font-size: 20px;}
+.commentTitle2 { font-size: 20px;}
+#commentDate {color: #888888; font-size: 14px;}
+
+
+/* footer */    
+.footer { display: flex; justify-content: center; border-top: #dbdbdb solid 1px;}
+.footerMain { display: flex; position: relative; flex-direction: column; justify-content: center; align-items: center; padding-top: 44px; padding-bottom: 52px;}
+.footerMain > p:nth-child(1) {
+      font-size: 15px;
+      font-family: 'Pretendard';
+      line-height: 27px;
+}
+.footerMain > p:nth-child(2) {
+    font-size: 15px;
+    font-family: 'Pretendard';
+    line-height: 27px;
+}
+.footerMain > p:nth-child(3) {
+    font-size: 14px;
+    font-family: 'Pretendard';
+    color: #666666;
+    margin-top: 32px;
+}
+
+
+/* image */
+.head img {height:auto; width:auto}
+.medals {display: flex; position: absolute; height: auto; width: auto; margin-top: 13px; margin-left: 19px;}
+.bigNumber {display: flex; position: absolute; height: auto; width: auto; margin-top: 192px; margin-left: 25px;}
+.whiteCircle {display: flex; position: absolute; height: auto; width: auto; margin-top: 17px; margin-left: 220px;}
+.wonSymbol {display: flex; position: absolute; height: auto; width: auto; margin-top: 23px; margin-left: 225px;}
+.whiteCircle2 {display: flex; position: absolute; height: auto; width: auto; margin-top: 17px; margin-left: 324px;}
+.humanIcon {display: flex; position: absolute; height: auto; width: auto; margin-top: 22px; margin-left: 329px;}
+.numbers {display: flex; position: absolute; height: auto; width: auto; margin-top: 21px; margin-left: 246px;}
+.chart img {display: flex; position: absolute; height: auto; width: auto; z-index: -1; margin-left: 111px;  margin-top: 56px;}
+.poster img {display:flex; position: absolute; width: auto; height: auto; right: 41px; bottom: 25px;}
+.introductionMain img {display: flex; position: absolute; height: auto; width: auto; top:18px; left: 540px}
+
+
+
+
+/* respondive */
+
+
+
+
+
+
+/* .bannerBoxs{justify-content: space-between;  gap:10px;} */
+/*-------------------------------------------------------------------
+    파일정의: Main page style
+    순서:    Contents > Main top(banner) > Aside
+-------------------------------------------------------------------*/
+
+/* contents start */
+
+    /* main top start (banner) */
+    /* main top end (banner) */
+
+/* contents end */
+
+/* aside.floating start */
+/* aside.floating end */
+
