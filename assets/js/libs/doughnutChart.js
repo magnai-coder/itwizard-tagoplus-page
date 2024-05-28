@@ -8,7 +8,7 @@ const colors = [
   ['#29ce8a', '#dfdfdf']
 ];
 
-
+var chart;
 const centerLabelPlugin = {
   id: 'center-label',
   beforeDraw: (chart) => {
