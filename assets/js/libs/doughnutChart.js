@@ -8,7 +8,7 @@ const colors = [
   ['#29ce8a', '#dfdfdf']
 ];
 
-var chart;
+
 const centerLabelPlugin = {
   id: 'center-label',
   beforeDraw: (chart) => {
@@ -17,7 +17,6 @@ const centerLabelPlugin = {
     const height = chart.height;
 
     const fontSize = Math.min(0.12 * Math.min(width, height), 40); 
-
     ctx.save();
     ctx.font = `Bold ${fontSize}px Pretendard`;
     ctx.fillStyle = '#222222';
@@ -59,7 +58,6 @@ new Chart(document.getElementById('myChart1'), {
     },
   },
 });
-
 
 new Chart(document.getElementById('myChart2'), {
   type: 'doughnut',
